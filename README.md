@@ -26,8 +26,8 @@ A responsive web application built using React + TypeScript + Tailwind CSS that 
 
 **Sandhiya G**  
 Frontend Developer & Data Enthusiast  
-Coimbatore, India  
-Email: `yourmail@example.com`  
+[Linkedin](www.linkedin.com/in/gsandhiya1511)
+[Portfolio](https://sites.google.com/view/g-sandhiya-portfolio/home?authuser=0)  
 [GitHub](https://github.com/GSandhiya1511)
 
 Check out the live website 👉 [https://heroic-naiad-75048b.netlify.app](https://heroic-naiad-75048b.netlify.app)
