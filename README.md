@@ -4,17 +4,6 @@ A responsive web application built using React + TypeScript + Tailwind CSS that 
 
  **Live Site**: [Visit Project on Netlify](https://heroic-naiad-75048b.netlify.app)
 
-## Screenshots
-
-### Home Page  
-![Home](./screenshots/home.png)
-
-### Gallery with Search  
-![Gallery](./screenshots/gallery.png)
-
-### Library Detail Page  
-![Detail](./screenshots/detail.png)
-
 ##  Features
 
 -  District-wise gallery of top public libraries in Tamil Nadu
