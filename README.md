@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+#  A Centralized Library Info Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built using React + TypeScript + Tailwind CSS that showcases Tamil Nadu’s top district-wise public libraries with a searchable gallery and detailed pages.
 
-Currently, two official plugins are available:
+ **Live Site**: [Visit Project on Netlify](https://heroic-naiad-75048b.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## Expanding the ESLint configuration
+### Home Page  
+![Home](./screenshots/home.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Gallery with Search  
+![Gallery](./screenshots/gallery.png)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Library Detail Page  
+![Detail](./screenshots/detail.png)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##  Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+-  District-wise gallery of top public libraries in Tamil Nadu
+-  Real-time search by library name or location
+-  Detail pages with image, description, timings, and official URL
+-  Contact form & login page
+-  Fully responsive design
+-  Hosted on Netlify
+- 
+##  Built With
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
+- [Netlify](https://www.netlify.com/)
+
+## Author
+
+**Sandhiya G**  
+Frontend Developer & Data Enthusiast  
+Coimbatore, India  
+Email: `yourmail@example.com`  
+[GitHub](https://github.com/GSandhiya1511)
+
+Check out the live website 👉 [https://heroic-naiad-75048b.netlify.app](https://heroic-naiad-75048b.netlify.app)
+
+
+
